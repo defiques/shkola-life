@@ -396,7 +396,7 @@ ul {
 .tableWrapper {
     display: flex;
     flex-flow: row;
-    font-size: 13spx;
+    font-size: 13px;
 }
 
 .columnHeader, .columnImg, .columnInfo {
@@ -404,7 +404,7 @@ ul {
 }
 
 .columnImg, .columnInfo {
-    height: 160px;
+    height: 170px;
     padding: 5px;
 }
 
