@@ -76,7 +76,7 @@ body {
     display: flex;
     padding-top: 15px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .sectionOneLink:first-child {
