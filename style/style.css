@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    color: #555b5d;
+    max-height: 100%;
+    max-width: 100vw;
+}
+
+.wrapper {
+    background: url("../img/pattern.png") top left repeat;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.dBlock {
+    display: block!important;
+}
+
+.arrowUp {
+    border-left: 6.75px solid transparent!important;
+    border-right: 6.75px solid transparent!important;
+    border-bottom: 7px solid #9B9797!important;
+    border-top: 0px!important;
+}
+
+.headerWrapper {
+    padding-top: 13px;
+    background-color: #006a3d;
+    border-bottom: 7px solid #f47920;
+}
+
+.headerLogos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainInfoWrapper {
+    padding: 20px;
+}
+
+.sectionOneUpperInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionOneImage {
+    padding-right: 20px;
+}
+
+.image {
+    width: 210px;
+    height: 210px;
+}
+
+.sectionOneInfo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.sectionOneText {
+    padding-bottom: 10px;
+}
+
+.sectionOneButtons {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionOneLink:first-child {
+    position: relative;
+    bottom: 25px;
+}
+
+/* .sectionOneButton:first-child {
+    background-color: #006a3d;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.sectionOneButton:last-child {
+    background-color: #f47920;
+    border-radius: 2px;
+    text-align: center;
+} */
+
+/* .zayavBtn, .akciiBtn {
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.zayavBtn {
+    background-color: #006a3d;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.akciiBtn {
+    background-color: #f47920;
+    border-radius: 2px;
+    text-align: center;
+} */
+
+.sectionTwoText {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.li i {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background: #f47920;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+    padding: 6px 0px;
+}
+
+.menuVisibleBlock {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menuVisibleTitle {
+    color: #2E654B;
+    text-decoration-line: underline;
+    text-decoration-color: #2E654B;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.menuVisibleArrow {
+    width: 0; 
+    height: 0; 
+    border-left: 6.75px solid transparent;
+    border-right: 6.75px solid transparent;
+    border-top: 7px solid #9B9797;
+}
+
+.menuHiddenBlock {
+    display: none;
+}
+
+.sectionThreeText {
+    padding-bottom: 20px;
+}
+
+.scrollMenu {
+    padding-bottom: 5px;
+    max-width: 99%;
+}
+
+.mainSectionThree .scrollMenu:last-child {
+    padding-top: 20px;
+}
+
+.filePdf {
+    display: flex;
+    align-items: center;
+}
+
+.filePdf i {
+    background: url("../img/pdf.png") no-repeat 0 0;
+    height: 47px;
+    width: 38px;
+    margin-top: 5px;
+    display: block;
+    margin-right: 8px;
+}
+
+.fileInfo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.fileName a {
+    color: #ff8522
+}
+
+.fileSize {
+    display: flex;
+    align-items: center;
+}
+
+.downloadButtons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.downloadButton:first-child {
+    padding-right: 32px;
+}
+
+.menuVisibleTitle a {
+    color: #2E654B;
+}
+
+.addInfo {
+    color: #999;
+    font-size: 11px;
+    padding-left: 4px;
+}
+
+.rulesLink {
+    padding-bottom: 5px;
+}
+
+.listLink {
+    font-size: 11px;
+    padding-bottom: 15px;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #006a3d;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 700;
+}
